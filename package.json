@@ -22,10 +22,12 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^26.1.0",
-    "react-native": "0.74.5"
+    "react-native": "^0.76.3"
   },
   "peerDependencies": {
-    "react-native": "0.74.5"
+    "react-native": "0.74.5",
+    "expo": "51.0.38",
+    "react": "18.3.1"
   },
   "scripts": {
     "test": "jest --coverage"
@@ -43,8 +45,10 @@
   "nativePackage": true,
   "homepage": "https://github.com/loadsmart/rn-salesforce-chat#readme",
   "dependencies": {
-    "@babel/plugin-transform-class-properties": "^7.25.9",
-    "husky": "^4.3.8"
+    "@babel/plugin-transform-class-properties": "7.25.9",
+    "expo": "51.0.38",
+    "react": "18.3.1",
+    "husky": "4.3.8"
   },
   "repository": {
     "type": "git",
