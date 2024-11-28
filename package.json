@@ -22,10 +22,10 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^26.1.0",
-    "react-native": "0.74.0"
+    "react-native": "0.74.5"
   },
   "peerDependencies": {
-    "react-native": "0.74.0"
+    "react-native": "0.74.5"
   },
   "scripts": {
     "test": "jest --coverage"
