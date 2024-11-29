@@ -1,15 +1,5 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rn.salesforce.chat">
-    
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING" />
-
-    <!-- Serviço adicional -->
-    <application>
-        <service
-            android:name="com.salesforce.android.chat.core.internal.service.ChatService"
-            android:foregroundServiceType="remoteMessaging" />
-    </application>
-
 </manifest>
   
